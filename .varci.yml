@@ -1,0 +1,6 @@
+ruleset:
+  rule_a:
+    name: "ぬるぽ rule"
+    events: [ issues ]
+    when: body contains "ぬるぽ"
+    comment: "ガッ"
